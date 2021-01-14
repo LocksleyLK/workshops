@@ -8,6 +8,13 @@
 
 ## Created by Locksley Kolakowski
 
+| **Project Goal**            | **Build a Women in Tech Personality Quiz** |
+|-------------------------|----------------------------------------|
+| **What you'll learn**       | Learn the basics of Python             |
+| **Tools you'll need**       | A [CodeSandbox](https://codesandbox.io/) account |
+| **Time needed to complete** | <1 hour                                |
+| **Finished Solution**       |  |
+
 ## Let's meet our inspiring Women in Tech!
 
 ### Reshma Saujani
