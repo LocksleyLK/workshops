@@ -6,11 +6,11 @@
 
 # Learn Python with the Women in Tech Personality Quiz
 
-## Created by Locksley Kolakowski with inspiration from the [Learn Python basics with Wonder Woman](https://docs.microsoft.com/en-us/learn/paths/python-partnership/) Microsoft Learn module!
+## Created by **Locksley Kolakowski** with inspiration from the [Learn Python basics with Wonder Woman](https://docs.microsoft.com/en-us/learn/paths/python-partnership/) Microsoft Learn module!
 
 | **Project Goal**            | **Build a Women in Tech Personality Quiz** |
 |-------------------------|----------------------------------------|
-| **What you'll learn**       | Learn the basics of variables, if/else statements, functions, and more in the Python programming langyage            |
+| **What you'll learn**       | Learn the basics of variables, if/else statements, functions, and more in the Python programming language  |
 | **Tools you'll need**       | [Python Sandbox](http://pythonsandbox.com/) |
 | **Time needed to complete** | <1 hour                                |
 | **Finished Solution**       | [Link](https://github.com/LocksleyLK/workshops/blob/main/personalityQuiz/solution.py) |
