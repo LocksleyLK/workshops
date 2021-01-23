@@ -161,6 +161,7 @@ fullSentence = firstProgram + " " + intro + " " + myName + ". " + i + " " + strI
 
 1. Replace all of the code in the **Editor Window** with the following snippet:
 ```
+# Collect input for our questions.
 answer = input( "What is your favorite color?\n(A) Red\n(B) Blue\n(C) Green\n(D) Purple" )
 
 answer = input( "What would you like to major in?\n(A) Business\n(B) Law\n(C) Mathematics\n(D) Computer Science\n(E) Other")
@@ -183,6 +184,7 @@ answer = input( "What is the best invention?\n(A) Space travel\n(B) Smart phones
 1. Right now, we can click through the pop-up, but no tallies are scored. We need to add some **counter** variables to store this information.
 2. Below the code that is already there, input the following variables:
 ```
+# Start all of the women in tech at 0.
 reshma = 0
 margaret = 0
 susan = 0
@@ -195,6 +197,7 @@ katherine = 0
 	- If an input is equal to a variable, it will trigger our counter
 	- If the user incorrectly typed in something (or neglected to type in anything), it will choose a value to use.
 ```
+# Answer counter for our first question: what is your favorite color?
 if answer == "A":
   reshma += 1
 elif answer == "B":
@@ -210,6 +213,7 @@ else:
 
 2. Copy and paste the following code for our second question: what would you like to major in?
 ```
+# Answer counter for our second question: what would you like to major in?
 if answer == "B":
   reshma += 1
 elif answer == "A" or "E":
@@ -225,6 +229,7 @@ else:
 
 3. Copy and paste the following code for our third question: what company would you most like to work for?
 ``` 
+# Answer counter for our third question: hat company would you most like to work for?
 if answer == "A":
   margaret += 1
   katherine += 1
@@ -240,6 +245,7 @@ else:
 
 4. Copy and paste the following code for our fourth question: what is the best invention?
 ``` 
+# Answer counter for our fourth question: wWhat is the best invention?
 if answer == "A":
   margaret += 1
   katherine += 1
@@ -256,6 +262,7 @@ else:
 ## Step 7: Determine what score is the highest
 1. Our final step is to add some logic to figure out which score is the highest. Use the following **if/elif/else** statements to determine which role model had the highest score and **print** that person to the **Output Window**.
 ``` 
+# Determine which woman in tech had the highest score and print the results!
 if (reshma > margaret and susan and katherine):
 	print("Congratulations! You are most like Reshma!")
 elif (margaret > reshma and susan and katherine):
