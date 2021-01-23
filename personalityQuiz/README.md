@@ -37,19 +37,20 @@ Katherine Johnson helped synch Project Apollo’s Lunar Module with the lunar-or
 
 ## Step 2: Experiment with some basic Python
 
-1. In the **Editor Window**, type the following code
+1. In the **Editor Window**, clear the line of code that was already there and insert the following:
 ```
 # Hello, world!
 ```
-2. Click the **Play**(▶️) button. What do you see in the **Output Window**?
+2. Click the **Play** (▶️) button. What do you see in the **Output Window**?
 3. You should see nothing! The first thing we did was create a **Comment**
   	- A **Comment** can only be seen by the developer and is used to help make the code easier for humans to read.
   	- It is also used to help test the code when we run into an error.
-4. Now let's create a **variable**. The first variable we are going to create is a **string** which is used when we want to save text. Try typing the following code and hit **Play**.
+4. Now let's create a **variable**. The first variable we are going to create is a **string** which is used when we want to save text. Try typing the following code and hit **Play** (▶️).
+	- You can use a single quote or double quote to create a string
 ```
 firstProgram = "Hello, world!"
 ```
-5. Although we created a **variable**, it is not appearing in the **Output Window** yet. There is one more thing we need to do. Add the following code below your variable:
+5. Although we created a **variable**, it is not appearing in the **Output Window** yet. There is one more thing we need to do. Add the following **print()** method to your program:
 ```
 print("Hello, world!")
 ```
@@ -61,14 +62,18 @@ print(firstProgram)
 
 ## Step 3: Let's level up!
 
-1. In addition to the **string** variable, we're going to learn about an **int**. An **int** is short for integer, and it can be a whole number. 
-2. Create an int that holds your age.
+1. In addition to the **string** variable, we're going to learn about an **int**. 
+	- An **int** is short for integer, and it can be a whole number. 
+	- There are other common variables such as **floats**, **lists**, and **booleans**, but we won;t be using them in our workshop today.
+2. Create an int that holds your age and call the **print()** method with it. After doing that, hit **Play** (▶️).
 ```
 myAge = 20
+print(myAge)
 ```
-3. Now, create one more variable that holds your name.
+3. Now, create one more variable that holds your name. Once again, call the **print()** method and click **Play** (▶️).
 ```
 myName = "Locksley"
+print(myName)
 ```
 4. Let's bring it all together! We're going to bring our **firstProgram**, **myAge**, and **myName** variable together into the following statement with a couple extra pieces. Replace all of your current code with the following snippet:
 ```
@@ -79,7 +84,7 @@ i = "I am"
 myAge = 20
 years = "years old"
 
-fullsentence = firstProgram + intro + myName + i + strInt + years
+fullsentence = firstProgram + intro + myName + i + myAge + years
 print(fullsentence)
 ```
 5. This program won't work. You'll recieve an error message explaining that you cannot concatenate 'str' and 'int' objects. We'll change this by implementing the **str()** function to convert our string into an integer. We'll create a new variable to hold this **string**.
