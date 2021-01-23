@@ -154,6 +154,52 @@ susan = 0
 katherine = 0
 ```
 
+if question == "A":
+  reshma = reshma + 1
+elif question == "B":
+  margaret = margaret + 1
+elif question == "C":
+  susan = susan + 1
+else:
+	katherine = katherine + 1
+
+  
+if question == "B":
+  reshma = reshma + 1;
+elif question == "A" or "E":
+  susan = susan + 1
+else:
+	margaret = margaret + 1
+	katherine = katherine + 1
+  
+  
+if question == "A":
+  margaret = margaret + 1
+  katherine = katherine + 1
+elif question == "B":
+  susan = susan + 1
+else:
+	reshma = reshma + 1;
+  
+
+if question == "A":
+  margaret = margaret + 1
+  kkatherine = katherine + 1
+elif question == "B":
+	susan = susan + 1
+else:
+	reshma = reshma + 1;
+  
+if (reshma > margaret or susan or katherine):
+	print("You are most like Reshma!")
+elif (margaret > reshma or susan or katherine):
+  print("You are most like Margaret!")
+elif (susan > margaret or susan or katherine):
+  print("You are most like Susan!")
+else:
+  print("You are most like Katherine!")
+	
+
 
 
 
