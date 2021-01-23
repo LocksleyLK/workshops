@@ -162,59 +162,76 @@ katherine = 0
 
 ## Step 6: Add our logic
 1. Now, we need to create logic that counts up the values when you select the corresponding answer. Copy and paste the following code for our first question: what is your favorite color?
+	- We will use **if/elif/else** statements to run through the code
+	- If an input is equal to a variable, it will trigger our counter
+	- If the user incorrectly typed in something (or neglected to type in anything), it will choose a value to use.
 ```
 if question == "A":
-  reshma = reshma + 1
+  reshma += 1
 elif question == "B":
-  margaret = margaret + 1
+  margaret += 1
 elif question == "C":
-  susan = susan + 1
+  susan += 1
+elif question == "D":
+  katherine += 1
 else:
-  katherine = katherine + 1
+  print("You did not select one of the answers for question 1. We're going to say you selected A")
+  reshma += 1
 ```
 
 2. Copy and paste the following code for our second question: what would you like to major in?
 ```
 if question == "B":
-  reshma = reshma + 1;
+  reshma += 1
 elif question == "A" or "E":
-  susan = susan + 1
+  susan += 1
+elif question == "C" or "D":
+  margaret += 1
+  katherine += 1
 else:
-  margaret = margaret + 1
-  katherine = katherine + 1
+  print("You did not select one of the answers for question 2. We're going to say you selected C")
+  margaret += 1
+  katherine += 1
 ```  
 
 3. Copy and paste the following code for our third question: what company would you most like to work for?
 ``` 
 if question == "A":
-  margaret = margaret + 1
-  katherine = katherine + 1
+  margaret += 1
+  katherine += 1
 elif question == "B":
-  susan = susan + 1
+  susan += 1
+elif question == "C":
+  reshma += 1;
 else:
-  reshma = reshma + 1;
+  print("You did not select one of the answers for question 3. We're going to say you selected B")
+  susan += 1  
 ``` 
 
 
 4. Copy and paste the following code for our fourth question: what is the best invention?
 ``` 
 if question == "A":
-  margaret = margaret + 1
-  katherine = katherine + 1
+  margaret += 1
+  katherine += 1
 elif question == "B":
-  susan = susan + 1
+  susan += 1
+elif question == "C":
+  reshma += 1;
 else:
-  reshma = reshma + 1;
+  print("You did not select one of the answers for question 4. We're going to say you selected A")
+  margaret += 1
+  katherine += 1
 ``` 
 
 ## Step 7: Determine what score is the highest
 1. Our final step is to add some logic to figure out which score is the highest. Use the following **if/elif/else** statements to determine which role model had the highest score and **print** that person to the **Output Window**.
 ``` 
-if (reshma > margaret or susan or katherine):
+if (reshma > margaret and susan and katherine):
 	print("Congratulations! You are most like Reshma!")
-elif (margaret > reshma or susan or katherine):
+elif (margaret > reshma and susan and katherine):
   print("Congratulations! You are most like Margaret!")
-elif (susan > margaret or susan or katherine):
+elif (susan > margaret and susan and katherine):
   print("Congratulations! You are most like Susan!")
 else:
   print("Congratulations! You are most like Katherine!")
@@ -224,7 +241,6 @@ else:
 Congratualtions! You have built a working personality quiz! If you have extra time, start thinking about what you can add to make your personality quiz unique:
 - Can I add more role models?
 - Can I add more questions?
-- What if the user types in a number that was not an option?
 
 Adding these extra pieces will help you think about your work in new ways and display your own creativity.
 
