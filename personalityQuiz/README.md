@@ -110,6 +110,7 @@ fullSentence = firstProgram + intro + myName + i + strInt + years
 print(fullSentence)
 ```
 7. After running the program, you'll notice that all of the phrases are stuck together. 
+
 <img
   src="photos/output1.png"
   alt="All of the phrases are stuck together"
