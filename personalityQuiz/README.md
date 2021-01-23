@@ -54,7 +54,7 @@ firstProgram = "Hello, world!"
 ```
 print("Hello, world!")
 ```
-6. Try clicking **Play** again. This time, **Hello, World!** should appear in the **Output Window**.
+6. Try clicking **Play** (▶️) again. This time, **Hello, World!** should appear in the **Output Window**.
 7. You can also print **Hello, world!** by using our **string** variable from earlier.
 ```
 print(firstProgram)
@@ -167,7 +167,7 @@ question = input( "What is the best invention?\n(A) Space travel\n(B) Smart phon
 ```
 2. The **input()** function will trigger a pop up in our Python Sandbox where you can input your response. 
 	- The new line character **\n** will space the answers across multiple lines.
-3. Paste the code into Python Sandbox and click **Play**. A pop-up will appear that you can click through.
+3. Paste the code into Python Sandbox and click **Play** (▶️). A pop-up will appear that you can click through.
 
 <img
   src="photos/popup1.png"
