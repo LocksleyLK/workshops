@@ -6,14 +6,14 @@
 
 # Learn Python with the Women in Tech Personality Quiz
 
-## Created by Locksley Kolakowski
+## Created by Locksley Kolakowski with inspiration from the [Learn Python basics with Wonder Woman](https://docs.microsoft.com/en-us/learn/paths/python-partnership/) Microsoft Learn module!
 
 | **Project Goal**            | **Build a Women in Tech Personality Quiz** |
 |-------------------------|----------------------------------------|
-| **What you'll learn**       | Learn the basics of Python             |
+| **What you'll learn**       | Learn the basics of variables, if/else statements, functions, and more in the Python programming langyage            |
 | **Tools you'll need**       | [Python Sandbox](http://pythonsandbox.com/) |
 | **Time needed to complete** | <1 hour                                |
-| **Finished Solution**       |  |
+| **Finished Solution**       | [Link](https://github.com/LocksleyLK/workshops/blob/main/personalityQuiz/solution.py) |
 
 ## Let's meet our inspiring Women in Tech!
 
@@ -109,7 +109,7 @@ fullSentence = firstProgram + " " + intro + " " + myName + ". " + i + " " + strI
 
 ## Step 4: Let's encode our quiz questions!
 
-### These are the questions we're going to use:
+### These are the questions and answers we're going to use:
 
 #### 1. What is your favorite color?
 - Red
