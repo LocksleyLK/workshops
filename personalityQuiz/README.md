@@ -84,8 +84,8 @@ i = "I am"
 myAge = 20
 years = "years old"
 
-fullsentence = firstProgram + intro + myName + i + myAge + years
-print(fullsentence)
+fullSentence = firstProgram + intro + myName + i + myAge + years
+print(fullSentence)
 ```
 5. This program won't work. You'll recieve an error message explaining that you cannot concatenate 'str' and 'int' objects. We'll change this by implementing the **str()** function to convert our string into an integer. We'll create a new variable to hold this **string**.
 ```
@@ -99,7 +99,7 @@ years = "years old"
 strInt = str(myAge)
 
 fullSentence = firstProgram + intro + myName + i + strInt + years
-print(fullsentence)
+print(fullSentence)
 ```
 6. After running the program, you'll notice that all of the phrases are stuck together. When concatenating strings, you need to manually add the spaces. Change the **fullSentance** to include the following spaces.
 ```
@@ -146,15 +146,16 @@ question = input( "3. What company would you most like to work for?\n(A) NASA\n(
 
 question = input( "What is the best invention?\n(A) Space travel\n(B) Smart phones\n(C) The internet" )
 ```
-2. The **input()** function will trigger a pop up in our Python Sandbox where you can input your response. The new line character **\n** will space the answers across multiple lines.
+2. The **input()** function will trigger a pop up in our Python Sandbox where you can input your response. 
+	- The new line character **\n** will space the answers across multiple lines.
 3. Paste the code into Python Sandbox and click **Play**. A pop-up will appear that you can click through.
 
 ## Step 5: Add our counter variables
 1. Right now, we can click through the pop-up, but no tallies are scored. We need to add some **counter** variables to store this information.
-2. At the top of the **Editor Window**, input the following code:
+2. Below our current, input the following variables:
 ```
 reshma = 0
-maragaret = 0
+margaret = 0
 susan = 0
 katherine = 0
 ```
@@ -199,7 +200,7 @@ else:
 ``` 
 if question == "A":
   margaret = margaret + 1
-  kkatherine = katherine + 1
+  katherine = katherine + 1
 elif question == "B":
   susan = susan + 1
 else:
