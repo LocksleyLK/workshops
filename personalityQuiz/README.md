@@ -87,7 +87,15 @@ years = "years old"
 fullSentence = firstProgram + intro + myName + i + myAge + years
 print(fullSentence)
 ```
-5. This program won't work. You'll recieve an error message explaining that you cannot concatenate 'str' and 'int' objects. We'll change this by implementing the **str()** function to convert our string into an integer. We'll create a new variable to hold this **string**.
+5. This program won't work. You'll recieve an error message explaining that you cannot concatenate 'str' and 'int' objects. 
+
+<img
+  src="photos/concatenate.png"
+  alt="Concatenate command line error"
+  style="float: left; margin-right: 90px;"
+/>
+
+6. We'll change this by implementing the **str()** function to convert our string into an integer. We'll create a new variable to hold this **string**.
 ```
 firstProgram = "Hello, world!"
 intro = "My name is"
@@ -101,10 +109,21 @@ strInt = str(myAge)
 fullSentence = firstProgram + intro + myName + i + strInt + years
 print(fullSentence)
 ```
-6. After running the program, you'll notice that all of the phrases are stuck together. When concatenating strings, you need to manually add the spaces. Change the **fullSentance** to include the following spaces.
+7. After running the program, you'll notice that all of the phrases are stuck together. 
+<img
+  src="photos/output1.png"
+  alt="All of the phrases are stuck together"
+  style="float: left; margin-right: 90px;"
+/>
+8. When concatenating strings, you need to manually add the spaces. Change the **fullSentance** to include the following spaces.
 ```
 fullSentence = firstProgram + " " + intro + " " + myName + ". " + i + " " + strInt + " " + years + "."
 ```
+<img
+  src="photos/output2.png"
+  alt="Phrases seperated with proper punctuation"
+  style="float: left; margin-right: 90px;"
+/>
   - We have also added some punctuation to this line!
 
 ## Step 4: Let's encode our quiz questions!
@@ -149,6 +168,12 @@ question = input( "What is the best invention?\n(A) Space travel\n(B) Smart phon
 2. The **input()** function will trigger a pop up in our Python Sandbox where you can input your response. 
 	- The new line character **\n** will space the answers across multiple lines.
 3. Paste the code into Python Sandbox and click **Play**. A pop-up will appear that you can click through.
+
+<img
+  src="photos/popup1.png"
+  alt="Pop up example"
+  style="float: left; margin-right: 90px;"
+/>
 
 ## Step 5: Add our counter variables
 1. Right now, we can click through the pop-up, but no tallies are scored. We need to add some **counter** variables to store this information.
