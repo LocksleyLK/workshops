@@ -33,7 +33,7 @@ Katherine Johnson helped synch Project Apollo’s Lunar Module with the lunar-or
 ## Step 1: Navigate to Python Sandbox
 
 1. Go to [Python Sandbox](http://pythonsandbox.com/)
-  - If you have Python preinstalled on your computer, feel free to use a text editor to run your code
+  	- If you have Python preinstalled on your computer, feel free to use a text editor to run your code
 
 ## Step 2: Experiment with some basic Python
 
@@ -43,8 +43,8 @@ Katherine Johnson helped synch Project Apollo’s Lunar Module with the lunar-or
 ```
 2. Click the **Play**(▶️) button. What do you see in the **Output Window**?
 3. You should see nothing! The first thing we did was create a **Comment**
-  - A **Comment** can only be seen by the developer and is used to help make the code easier for humans to read.
-  - It is also used to help test the code when we run into an error.
+  	- A **Comment** can only be seen by the developer and is used to help make the code easier for humans to read.
+  	- It is also used to help test the code when we run into an error.
 4. Now let's create a **variable**. The first variable we are going to create is a **string** which is used when we want to save text. Try typing the following code and hit **Play**.
 ```
 firstProgram = "Hello, world!"
@@ -154,6 +154,9 @@ susan = 0
 katherine = 0
 ```
 
+## Step 6: Add our logic
+1. Now, we need to create logic that counts up the values when you select the corresponding answer. Copy and paste the following code for our first question: what is your favorite color?
+```
 if question == "A":
   reshma = reshma + 1
 elif question == "B":
@@ -161,47 +164,68 @@ elif question == "B":
 elif question == "C":
   susan = susan + 1
 else:
-	katherine = katherine + 1
+  katherine = katherine + 1
+```
 
-  
+2. Copy and paste the following code for our second question: what would you like to major in?
+```
 if question == "B":
   reshma = reshma + 1;
 elif question == "A" or "E":
   susan = susan + 1
 else:
-	margaret = margaret + 1
-	katherine = katherine + 1
-  
-  
+  margaret = margaret + 1
+  katherine = katherine + 1
+```  
+
+3. Copy and paste the following code for our third question: what company would you most like to work for?
+``` 
 if question == "A":
   margaret = margaret + 1
   katherine = katherine + 1
 elif question == "B":
   susan = susan + 1
 else:
-	reshma = reshma + 1;
-  
+  reshma = reshma + 1;
+``` 
 
+
+4. Copy and paste the following code for our fourth question: what is the best invention?
+``` 
 if question == "A":
   margaret = margaret + 1
   kkatherine = katherine + 1
 elif question == "B":
-	susan = susan + 1
+  susan = susan + 1
 else:
-	reshma = reshma + 1;
-  
+  reshma = reshma + 1;
+``` 
+
+## Step 7: Determine what score is the highest
+1. Our final step is to add some logic to figure out which score is the highest. Use the following **if/elif/else** statements to determine which role model had the highest score and **print** that person to the **Output Window**.
+``` 
 if (reshma > margaret or susan or katherine):
-	print("You are most like Reshma!")
+	print("Congratulations! You are most like Reshma!")
 elif (margaret > reshma or susan or katherine):
-  print("You are most like Margaret!")
+  print("Congratulations! You are most like Margaret!")
 elif (susan > margaret or susan or katherine):
-  print("You are most like Susan!")
+  print("Congratulations! You are most like Susan!")
 else:
-  print("You are most like Katherine!")
-	
+  print("Congratulations! You are most like Katherine!")
+``` 
 
+## Step 8: Think critically
+Congratualtions! You have built a working personality quiz! If you have extra time, start thinking about what you can add to make your personality quiz unique:
+- Can I add more role models?
+- Can I add more questions?
+- What if the user types in a number that was not an option?
 
+Adding these extra pieces will help you think about your work in new ways and display your own creativity.
 
+## Next steps
+If you are interested in learning more and growing your Python skills, check out these resources:
+- [Learn Python basics with Wonder Woman](https://docs.microsoft.com/en-us/learn/paths/python-partnership/) - This was the inspiration for this workshop!
+- [Take your first steps with Python](https://docs.microsoft.com/en-us/learn/paths/python-first-steps/)
 
 
 
