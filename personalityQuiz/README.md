@@ -10,7 +10,7 @@
 
 | **Project Goal**            | **Build a Women in Tech Personality Quiz** |
 |-------------------------|----------------------------------------|
-| **What you'll learn**       | Learn the basics of variables, if/else statements, functions, and more in the Python programming language  |
+| **What you'll learn**       | Learn about variables, if/else statements, functions, and more in the Python programming language  |
 | **Tools you'll need**       | [Python Sandbox](http://pythonsandbox.com/) |
 | **Time needed to complete** | <1 hour                                |
 | **Finished Solution**       | [Link](https://github.com/LocksleyLK/workshops/blob/main/personalityQuiz/solution.py) |
@@ -33,7 +33,7 @@ Katherine Johnson helped synch Project Apollo’s Lunar Module with the lunar-or
 ## Step 1: Navigate to Python Sandbox
 
 1. Go to [Python Sandbox](http://pythonsandbox.com/)
-  	- If you have Python preinstalled on your computer, feel free to use a text editor to run your code
+  	- If you have Python and a text edtor preinstalled on your computer, feel free to use that to run your code
 
 ## Step 2: Experiment with some basic Python
 
@@ -62,10 +62,11 @@ print(firstProgram)
 
 ## Step 3: Let's level up!
 
-1. In addition to the **string** variable, we're going to learn about an **int**. 
+1. In addition to the **string** variable, we're going to learn about **ints** and **booleans** today. 
 	- An **int** is short for integer, and it can be a whole number. 
-	- There are other common variables such as **floats**, **lists**, and **booleans**, but we won;t be using them in our workshop today.
-2. Create an int that holds your age and call the **print()** method with it. After doing that, hit **Play** (▶️).
+	- A **boolean** is a binary operator that can return either **True** or **False**.
+	- There are other common variables such as **floats** and **lists**, but we won't be using them in our workshop today.
+2. Create an int that holds your age and call the **print()** method. After doing that, hit **Play** (▶️).
 ```
 myAge = 20
 print(myAge)
@@ -75,7 +76,7 @@ print(myAge)
 myName = "Locksley"
 print(myName)
 ```
-4. Let's bring it all together! We're going to bring our **firstProgram**, **myAge**, and **myName** variable together into the following statement with a couple extra pieces. Replace all of your current code with the following snippet:
+4. Let's bring it all together! We're going to bring our **firstProgram**, **myAge**, and **myName** variable together into the following statement with a couple extra pieces. Replace all of your current code with the following snippet that we'll declare the sentence we want to print and **concatenate** the sentence together.
 ```
 firstProgram = "Hello, world!"
 intro = "My name is"
@@ -84,6 +85,7 @@ i = "I am"
 myAge = 20
 years = "years old"
 
+# Save concatenated values in a string variable.
 fullSentence = firstProgram + intro + myName + i + myAge + years
 print(fullSentence)
 ```
@@ -106,6 +108,7 @@ years = "years old"
 
 strInt = str(myAge)
 
+# Save concatenated values in a string variable.
 fullSentence = firstProgram + intro + myName + i + strInt + years
 print(fullSentence)
 ```
@@ -158,13 +161,13 @@ fullSentence = firstProgram + " " + intro + " " + myName + ". " + i + " " + strI
 
 1. Replace all of the code in the **Editor Window** with the following snippet:
 ```
-question = input( "What is your favorite color?\n(A) Red\n(B) Blue\n(C) Green\n(D) Purple" )
+answer = input( "What is your favorite color?\n(A) Red\n(B) Blue\n(C) Green\n(D) Purple" )
 
-question = input( "What would you like to major in?\n(A) Business\n(B) Law\n(C) Mathematics\n(D) Computer Science\n(E) Other")
+answer = input( "What would you like to major in?\n(A) Business\n(B) Law\n(C) Mathematics\n(D) Computer Science\n(E) Other")
 
-question = input( "3. What company would you most like to work for?\n(A) NASA\n(B) Google\n(C) Start my own company" )
+answer = input( "3. What company would you most like to work for?\n(A) NASA\n(B) Google\n(C) Start my own company" )
 
-question = input( "What is the best invention?\n(A) Space travel\n(B) Smart phones\n(C) The internet" )
+answer = input( "What is the best invention?\n(A) Space travel\n(B) Smart phones\n(C) The internet" )
 ```
 2. The **input()** function will trigger a pop up in our Python Sandbox where you can input your response. 
 	- The new line character **\n** will space the answers across multiple lines.
@@ -178,7 +181,7 @@ question = input( "What is the best invention?\n(A) Space travel\n(B) Smart phon
 
 ## Step 5: Add our counter variables
 1. Right now, we can click through the pop-up, but no tallies are scored. We need to add some **counter** variables to store this information.
-2. Below our current, input the following variables:
+2. Below the code that is already there, input the following variables:
 ```
 reshma = 0
 margaret = 0
@@ -192,13 +195,13 @@ katherine = 0
 	- If an input is equal to a variable, it will trigger our counter
 	- If the user incorrectly typed in something (or neglected to type in anything), it will choose a value to use.
 ```
-if question == "A":
+if answer == "A":
   reshma += 1
-elif question == "B":
+elif answer == "B":
   margaret += 1
-elif question == "C":
+elif answer == "C":
   susan += 1
-elif question == "D":
+elif answer == "D":
   katherine += 1
 else:
   print("You did not select one of the answers for question 1. We're going to say you selected A")
@@ -207,11 +210,11 @@ else:
 
 2. Copy and paste the following code for our second question: what would you like to major in?
 ```
-if question == "B":
+if answer == "B":
   reshma += 1
-elif question == "A" or "E":
+elif answer == "A" or "E":
   susan += 1
-elif question == "C" or "D":
+elif answer == "C" or "D":
   margaret += 1
   katherine += 1
 else:
@@ -222,12 +225,12 @@ else:
 
 3. Copy and paste the following code for our third question: what company would you most like to work for?
 ``` 
-if question == "A":
+if answer == "A":
   margaret += 1
   katherine += 1
-elif question == "B":
+elif answer == "B":
   susan += 1
-elif question == "C":
+elif answer == "C":
   reshma += 1;
 else:
   print("You did not select one of the answers for question 3. We're going to say you selected B")
@@ -237,12 +240,12 @@ else:
 
 4. Copy and paste the following code for our fourth question: what is the best invention?
 ``` 
-if question == "A":
+if answer == "A":
   margaret += 1
   katherine += 1
-elif question == "B":
+elif answer == "B":
   susan += 1
-elif question == "C":
+elif answer == "C":
   reshma += 1;
 else:
   print("You did not select one of the answers for question 4. We're going to say you selected A")
@@ -267,6 +270,7 @@ else:
 Congratualtions! You have built a working personality quiz! If you have extra time, start thinking about what you can add to make your personality quiz unique:
 - Can I add more role models?
 - Can I add more questions?
+- If the player wanted to leave early or quit, how would that be done?
 
 Adding these extra pieces will help you think about your work in new ways and display your own creativity.
 
