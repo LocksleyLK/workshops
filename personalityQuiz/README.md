@@ -18,13 +18,13 @@
 ## Let's meet our inspiring Women in Tech!
 
 ### Reshma Saujani
-Reshma Saujani is the Founder and CEO of Girls Who Code. Girls Who Code is leading the movement to inspire, educate, and equip young women with the computing skills to pursue 21st century opportunities. [Source](https://reshmasaujani.com/about/).
+Reshma Saujani is the Founder and CEO of Girls Who Code. Girls Who Code is leading the movement to inspire, educate, and equip young women with the computing skills to pursue 21st-century opportunities. [Source](https://reshmasaujani.com/about/).
 
 ### Margaret Hamilton
 Margaret Hamilton led the NASA software team that landed astronauts on the moon. The computing software she created for the Apollo missions was to interrupt one task to take on a more important one. She also popularized the term "software engineering." [Source](https://www.smithsonianmag.com/smithsonian-institution/margaret-hamilton-led-nasa-software-team-landed-astronauts-moon-180971575/).
 
 ### Susan Wojcicki
-Susan Wojcicki joined Google the year after it was founded and has been behind many of the search engine’s most defining features, including creating the first ever Google Doodle. She became head of YouTube last year, after it was bought by Google in 2006. [Source](https://www.theguardian.com/guardian-professional/women-leadership-blog/gallery/2015/jun/22/10-of-the-best-female-role-models-in-tech-in-pictures).
+Susan Wojcicki joined Google the year after it was founded and has been behind many of the search engine’s most defining features, including creating the first-ever Google Doodle. She became head of YouTube in 2014 after it was bought by Google in 2006. [Source](https://www.theguardian.com/guardian-professional/women-leadership-blog/gallery/2015/jun/22/10-of-the-best-female-role-models-in-tech-in-pictures).
 
 ### Katherine Johnson
 Katherine Johnson helped synch Project Apollo’s Lunar Module with the lunar-orbiting Command and Service Module. At age 97, President Barack Obama awarded her the Presidential Medal of Freedom. [Source](https://www.nasa.gov/content/katherine-johnson-biography).
@@ -33,7 +33,7 @@ Katherine Johnson helped synch Project Apollo’s Lunar Module with the lunar-or
 ## Step 1: Navigate to Python Sandbox
 
 1. Go to [Python Sandbox](http://pythonsandbox.com/)
-  	- If you have Python and a text edtor preinstalled on your computer, feel free to use that to run your code
+  	- If you have Python and a text editor preinstalled on your computer, feel free to use that to run your code
 
 ## Step 2: Experiment with some basic Python
 
@@ -76,7 +76,7 @@ print(myAge)
 myName = "Locksley"
 print(myName)
 ```
-4. Let's bring it all together! We're going to bring our **firstProgram**, **myAge**, and **myName** variable together into the following statement with a couple extra pieces. Replace all of your current code with the following snippet that we'll declare the sentence we want to print and **concatenate** the sentence together.
+4. Let's bring it all together! We're going to bring our **firstProgram**, **myAge**, and **myName** variable together into the following statement with a couple of extra pieces. Replace all of your current code with the following snippet that we'll declare the sentence we want to print and **concatenate** the sentence together.
 ```
 firstProgram = "Hello, world!"
 intro = "My name is"
@@ -89,7 +89,7 @@ years = "years old"
 fullSentence = firstProgram + intro + myName + i + myAge + years
 print(fullSentence)
 ```
-5. This program won't work. You'll recieve an error message explaining that you cannot concatenate 'str' and 'int' objects. 
+5. This program won't work. You'll receive an error message explaining that you cannot concatenate 'str' and 'int' objects. 
 
 <img
   src="photos/concatenate.png"
@@ -154,7 +154,7 @@ fullSentence = firstProgram + " " + intro + " " + myName + ". " + i + " " + strI
 
 #### 4. What is the best invention?
 - Space travel
-- Smart phones
+- Smartphones
 - The internet
 
 ### Implement the code
@@ -267,14 +267,14 @@ if (reshma > margaret and susan and katherine):
 	print("Congratulations! You are most like Reshma!")
 elif (margaret > reshma and susan and katherine):
   print("Congratulations! You are most like Margaret!")
-elif (susan > margaret and susan and katherine):
+elif (susan > margaret and reshma and katherine):
   print("Congratulations! You are most like Susan!")
 else:
   print("Congratulations! You are most like Katherine!")
 ``` 
 
 ## Step 8: Think critically
-Congratualtions! You have built a working personality quiz! If you have extra time, start thinking about what you can add to make your personality quiz unique:
+Congratulations! You have built a working personality quiz! If you have extra time, start thinking about what you can add to make your personality quiz unique:
 - Can I add more role models?
 - Can I add more questions?
 - If the player wanted to leave early or quit, how would that be done?
