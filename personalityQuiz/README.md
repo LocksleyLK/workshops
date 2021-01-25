@@ -119,7 +119,7 @@ print(fullSentence)
   alt="All of the phrases are stuck together"
   style="float: left; margin-right: 90px;"
 />
-8. When concatenating strings, you need to manually add the spaces. Change the **fullSentance** to include the following spaces.
+8. When concatenating strings, you need to manually add the spaces. Change the `fullSentance` to include the following spaces.
 ```
 fullSentence = firstProgram + " " + intro + " " + myName + ". " + i + " " + strInt + " " + years + "."
 ```
