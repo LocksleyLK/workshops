@@ -50,7 +50,7 @@ Katherine Johnson helped synch Project Apollo’s Lunar Module with the lunar-or
 ```
 firstProgram = "Hello, world!"
 ```
-5. Although we created a **variable**, it is not appearing in the **Output Window** yet. There is one more thing we need to do. Add the following **print()** method to your program:
+5. Although we created a **variable**, it is not appearing in the **Output Window** yet. There is one more thing we need to do. Add the following `print()` method to your program:
 ```
 print("Hello, world!")
 ```
@@ -64,19 +64,19 @@ print(firstProgram)
 
 1. In addition to the **string** variable, we're going to learn about **ints** and **booleans** today. 
 	- An **int** is short for integer, and it can be a whole number. 
-	- A **boolean** is a binary operator that can return either **True** or **False**.
+	- A **boolean** is a binary operator that can return either `True` or `False`.
 	- There are other common variables such as **floats** and **lists**, but we won't be using them in our workshop today.
-2. Create an int that holds your age and call the **print()** method. After doing that, hit **Play** (▶️).
+2. Create an int that holds your age and call the `print()` method. After doing that, hit **Play** (▶️).
 ```
 myAge = 20
 print(myAge)
 ```
-3. Now, create one more variable that holds your name. Once again, call the **print()** method and click **Play** (▶️).
+3. Now, create one more variable that holds your name. Once again, call the `print()` method and click **Play** (▶️).
 ```
 myName = "Locksley"
 print(myName)
 ```
-4. Let's bring it all together! We're going to bring our **firstProgram**, **myAge**, and **myName** variable together into the following statement with a couple of extra pieces. Replace all of your current code with the following snippet that we'll declare the sentence we want to print and **concatenate** the sentence together.
+4. Let's bring it all together! We're going to bring our `firstProgram`, `myAge`, and `myName` variable together into the following statement with a couple of extra pieces. Replace all of your current code with the following snippet that we'll declare the sentence we want to print and **concatenate** the sentence together.
 ```
 firstProgram = "Hello, world!"
 intro = "My name is"
@@ -97,7 +97,7 @@ print(fullSentence)
   style="float: left; margin-right: 90px;"
 />
 
-6. We'll change this by implementing the **str()** function to convert our string into an integer. We'll create a new variable to hold this **string**.
+6. We'll change this by implementing the `str()` function to convert our string into an integer. We'll create a new variable to hold this **string**.
 ```
 firstProgram = "Hello, world!"
 intro = "My name is"
@@ -170,8 +170,8 @@ answer = input( "3. What company would you most like to work for?\n(A) NASA\n(B)
 
 answer = input( "What is the best invention?\n(A) Space travel\n(B) Smart phones\n(C) The internet" )
 ```
-2. The **input()** function will trigger a pop up in our Python Sandbox where you can input your response. 
-	- The new line character **\n** will space the answers across multiple lines.
+2. The `input()` function will trigger a pop up in our Python Sandbox where you can input your response. 
+	- The new line character `\n` will space the answers across multiple lines.
 3. Paste the code into Python Sandbox and click **Play** (▶️). A pop-up will appear that you can click through.
 
 <img
@@ -193,7 +193,7 @@ katherine = 0
 
 ## Step 6: Add our logic
 1. Now, we need to create logic that counts up the values when you select the corresponding answer. Copy and paste the following code for our first question: what is your favorite color?
-	- We will use **if/elif/else** statements to run through the code
+	- We will use `if/elif/else` statements to run through the code
 	- If an input is equal to a variable, it will trigger our counter
 	- If the user incorrectly typed in something (or neglected to type in anything), it will choose a value to use.
 ```
@@ -260,7 +260,7 @@ else:
 ``` 
 
 ## Step 7: Determine what score is the highest
-1. Our final step is to add some logic to figure out which score is the highest. Use the following **if/elif/else** statements to determine which role model had the highest score and **print** that person to the **Output Window**.
+1. Our final step is to add some logic to figure out which score is the highest. Use the following `if/elif/else` statements to determine which role model had the highest score and **print** that person to the **Output Window**.
 ``` 
 # Determine which woman in tech had the highest score and print the results!
 if (reshma > margaret and susan and katherine):
