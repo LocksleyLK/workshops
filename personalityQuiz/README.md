@@ -54,8 +54,8 @@ firstProgram = "Hello, world!"
 ```
 print("Hello, world!")
 ```
-6. Try clicking **Play** (▶️) again. This time, **Hello, World!** should appear in the **Output Window**.
-7. You can also print **Hello, world!** by using our **string** variable from earlier.
+6. Try clicking **Play** (▶️) again. This time, `Hello, World!` should appear in the **Output Window**.
+7. You can also print `Hello, world!` by using our **string** variable from earlier.
 ```
 print(firstProgram)
 ```
