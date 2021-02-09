@@ -1,3 +1,5 @@
+[//]: <> (Add Elizabeth Friedman to the repo: https://www.smithsonianmag.com/smart-news/new-pbs-film-tells-story-wwii-codebreaker-elizabeth-friedman-180976759/) 
+
 <img
   src="photos/Women in Tech.png"
   alt="Women in Tech: Reshma Saujani, Margaret Hamilton, Susan Wojcicki, and Katherine Johnson"
