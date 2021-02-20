@@ -231,7 +231,7 @@ else:
 
 3. Copy and paste the following code for our third question: what company would you most like to work for?
 ``` 
-# Answer counter for our third question: hat company would you most like to work for?
+# Answer counter for our third question: what company would you most like to work for?
 if answer == "A":
   margaret += 1
   katherine += 1
